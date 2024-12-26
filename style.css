@@ -8,8 +8,6 @@ body {
     flex: 1;
     background-color: #1F2937;
     min-height: 100vh;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
 .body {
@@ -21,6 +19,8 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .header-logo {
@@ -39,8 +39,16 @@ body {
 
 .hero {
     background-color: #1F2937;
+    padding: 50px;
+    display: flex;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-right: 50px;
 }
 
 .hero-title {
@@ -57,10 +65,17 @@ body {
 .hero-button {
     background-color: #3882F6;
     color: #F9FAF8;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-top: 15px;
+    padding: 10px;
+    width: 150px;
 }
 
 .info-blocks-section {
     background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .info-blocks-title {
@@ -72,10 +87,14 @@ body {
 
 .testimonial-section {
     background-color: #E5E7EB;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .cta-section {
     background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .footer {
