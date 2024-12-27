@@ -72,29 +72,39 @@ body {
     width: 150px;
 }
 
-.info-blocks-section {
+.info-section {
     background-color: white;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 50px;
 }
 
-.info-blocks-title {
+.info-title {
     text-align: center;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    padding-bottom: 50px;
+}
+
+.info-blocks {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.image-subtext {
+    max-width: 200px;
+    text-align: center;
 }
 
 .testimonial-section {
     background-color: #E5E7EB;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 50px;
 }
 
 .cta-section {
     background-color: white;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 50px;
 }
 
 .footer {
